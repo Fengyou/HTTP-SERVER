@@ -45,6 +45,7 @@ output:
 		make output;\
 		cd -;\
 	done
+	cp -rf lib output
 .PHONY:clean
 clean:
 	rm -rf $(SERVER_BIN) $(CLIENT_BIN) output
